@@ -1,0 +1,67 @@
+* {
+  box-sizing: border-box;
+}
+
+body {
+  font-family: Arial;
+  background: aquamarine;
+  padding: 10px;
+}
+
+.header {
+  padding: 30px;
+  text-align: center;
+  background: white;
+}
+
+.header h1 {
+  font-size: 50px;
+}
+
+.navigation {
+  background-color: lightgrey;
+  overflow: hidden;
+}
+
+.navigation a {
+  float: left;
+  display: block;
+  text-align: center;
+  color: blue;
+  padding: 14px;
+  text-decoration: none;
+}
+
+.navigation a:hover {
+  background-color: aliceblue;
+}
+
+.left-column {
+  float: left;
+  width: 75%;
+}
+
+.right-column {
+  float: left;
+  width: 25%;
+  background-color: aquamarine;
+  padding-left: 20px;
+}
+
+.card {
+  background-color: white;
+  padding: 20px;
+  margin-top: 20px;
+}
+
+.content:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
+.footer {
+  color: rgb(70, 109, 126);
+  background-color: rgb(17, 17, 17);
+  text-align: center;
+}

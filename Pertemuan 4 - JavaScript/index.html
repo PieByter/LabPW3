@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+  </head>
+  <body>
+    <p id="demo"></p>
+    <h1 id="array"></h1>
+    <p id="array"></p>
+
+    <script>
+      let x, y, z;
+      x = 5;
+      y = 6;
+      z = "Halo" + 10;
+
+      const time = new Date().getHours();
+      let greeting;
+      if (time < 10) {
+        greeting = "Selamat Pagi";
+      } else if (time < 20) {
+        greeting = "Selamat Sore";
+      } else {
+        greeting = "Selamat Malam";
+      }
+      document.getElementById("demo").innerHTML = greeting;
+
+      const fruits = ["Zaitun", "Apel", "Kelapa", "Mangga", "Nanas"];
+      let text = "";
+      for (let i = 0; i < fruits.length; i++) {
+        text += fruits[i] + "<br>";
+      }
+      //fruits.sort();
+      //document.getElementById("array").innerHTML = fruits;
+      document.getElementById("array").innerHTML = text;
+      document.write(fruits);
+      //document.getElementById("demo").innerHTML = z;
+      //document.write("Ini Javascript");
+      //window.alert("Ini Javascript");
+      //console.log("Ini Javascript");
+    </script>
+  </body>
+</html>
